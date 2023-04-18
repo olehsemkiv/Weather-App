@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="app">
+            <div class="search">
+                <input class="search-input" type="text" placeholder="Введіть місто...">
+                <button class="search-btn" type="button">
+                    <img src="./images/search.png" alt="">
+                </button>
+            </div>
+            <p class="error">Invalid value</p>
+            <div class="app__body">
+                <div class="weather-img">
+                    <img class="weather-image" src="./images/clouds.png" alt="">
+                </div>
+                <h2 class="temperature">11°C</h2>
+                <h2 class="city">New York</h2>
+                <div class="weaher-info">
+                    <div class="humidity">
+                        <div class="humidity-img">
+                            <img src="./images/humidity.png" alt="">
+                        </div>
+                        <div class="humidity-info">
+                            <h4 class="humidity-value">48%</h4>
+                            <p>Вологість</p>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <div class="wind-img">
+                            <img src="./images/wind.png" alt="">
+                        </div>
+                        <div class="wind-info">
+                            <h4 class="wind-value">10.29 km/h</h4>
+                            <p>Швидкість вітру</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
