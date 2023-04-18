@@ -33,5 +33,6 @@ async function checkWeather(cityValue) {
 }
 
 search_btn.addEventListener('click', function () {
+    document.querySelector(".error").style.display = "none";
     checkWeather(search_input.value);
 })
